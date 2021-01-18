@@ -95,3 +95,7 @@ More samples can be found in the `samples` folder.
 | 60    | 3.40  | 3.51  |
 | 70    | 3.39  | 3.49  |
 | 80    | 3.38  | 3.49  |
+
+## Gradient Checkpointing
+
+As pointed out by [AlexanderMath](https://github.com/AlexanderMath), you can use gradient checkpointing to reduce memory consumption in the coupling layers. If interested, see [this issue](https://github.com/chrischute/glow/issues/8).
